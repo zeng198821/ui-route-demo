@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="css/antd.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="js/ocLazyLoad.min.js"></script>
+    <script type="text/javascript" src="indeApp.js"></script>
+    <style type="text/css">
+        ul li {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body ng-app="myApp" style="margin-left: 50px;">
+    <ul>
+        <li><a ui-sref="start">start</a></li>
+        <li><a ui-sref="second">second</a></li>
+    </ul>
+    <div ui-view></div>
+</body>
+</html>
