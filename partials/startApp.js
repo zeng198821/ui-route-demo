@@ -1,6 +1,8 @@
 /**
  * Created by zeng on 18-2-1.
  */
-app.controller("startCtrl",function ($scope) {
-    $scope.tmpName="startCtrl";
+angular.module("start", [])
+    .controller("startCtrl",function ($scope) {
+        var scope = this;
+        scope.tmpName="startCtrl";
 });
